@@ -1,0 +1,47 @@
+/* 
+body{
+    background-image: url("../image/abhishek.jpg");
+    background-size: auto;
+} */
+
+section {
+    margin-top: 50px;
+}
+
+div {
+    width: 150px;
+    background-color: lightblue;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid black;
+}
+
+div:nth-of-type(2n) {
+    background-color: aqua;
+}
+
+div:nth-of-type(3n) {
+    background-color: aquamarine;
+}
+
+#one {
+    transform: rotate(45deg);
+}
+
+#two {
+    /* transform: scale(1.2); */
+    /* transform: scale(1,5); */
+    /* transform: scale(2,1); */
+    /* transform: scaleX(2); */
+    transform: scaleY(2);
+}
+
+#three {
+    /* transform: translate(112px,112px); */
+    /* transform: translateX(112px); */
+    transform: translateY(112px);
+}
+
+#four {
+    transform: skew(35deg);
+}

@@ -1,0 +1,29 @@
+h1 {
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+@media( width: 400px) {
+    h1 {
+        background-color: lightblue;
+    }
+
+    div {
+        width: 200px;
+        height: 200px;
+        background-color: lightcoral;
+        border: 2px solid blueviolet;
+    }
+}
+
+@media( min-width: 401px) {
+    h1 {
+        background-color: orange;
+    }
+}
+
+@media( max-width: 399px) {
+    h1 {
+        background-color: lightslategray;
+    }
+}

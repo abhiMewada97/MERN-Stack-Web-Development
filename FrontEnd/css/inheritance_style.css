@@ -1,0 +1,11 @@
+div {
+    background-color: rgb(199, 199, 218);
+}
+
+form {
+    background-color: red;
+}
+
+input {
+    background-color: inherit;
+}

@@ -1,0 +1,17 @@
+div {
+    background-color: pink;
+    height: 150px;
+    width: 500px;
+    /* border-width: 5px;
+    border-style : solid;
+    border-color: black; */
+    border: 5px solid black;
+    border-top: 4px dashed green;
+}
+
+h1 {
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color:purple; */
+    border:2px dashed purple;
+}

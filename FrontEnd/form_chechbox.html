@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age">
+        <label for="age">I am 18+</label>
+        <br>
+        <button>Submit</button>
+    </form>
+    
+    <hr>
+
+    <form action="/server">
+        <fieldset>
+            <legend>Choose Hobies</legend>
+            <div>
+                <input type="radio" name="hobies" id="cricket" value="cricket">
+                <label for="cricket">Cricket</label>
+                <input type="radio" name="hobies" id="football" value="football">
+                <label for="football">Football</label>
+                <input type="radio" name="hobies" id="hocky" value="hocky">
+                <label for="hocky">Hocky</label>
+            </div>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+
+    <form action="/server">
+        <fieldset>
+            <legend>Choose field dropdown</legend>
+            <div>
+                <select name="profession" id="profession">
+                    <option value="dev">developer</option>
+                    <option value="code" selected>coder</option>
+                    <option value="test">tester</option>
+                </select>
+            </div>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+
+    <form action="/server">
+        <fieldset>
+            <legend>Choose Range</legend>
+            <div>
+                <input type="range" min="0" max="9" id="range" name="vol" step="4" value="5"/>
+                <label for="range">Range</label>
+            </div>
+            <div>
+                <label for="feed">Feedback</label>
+                <textarea id="feed" name="feed">Give your feedback</textarea>
+            </div>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+h4 {
+    text-decoration: wavy line-through ;
+}
+
+h5 {
+    text-decoration:red underline;
+}
+
+span {
+    text-decoration: dotted overline;
+}
+
+p {
+    font-family:arial;
+}
