@@ -1,0 +1,3 @@
+// data ko parse karne ke liya hamari jo 'req' obj hai 
+// ushke under 'body' name ki ek 'property' hoti hai 
+// jiske through 'req' ki 'body' ke under jo bhi data hota hai ushko hum access ker sakte hai 
