@@ -39,13 +39,13 @@ export default function Form() {
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="fullName">Full Name </label>
-            <input type="text" placeholder="enter full name" id="fullName" value={formData.fullName} name="fullName" onChange={handleInputChange}></input>
+            <input type="text" placeholder="enter full name" id="fullName" value={formData.fullName} name="fullName" onChange={handleInputChange} required></input>
             <br/><br/>
             <label htmlFor="userName">User Name </label>
-            <input type="text" placeholder="enter user name" id="userName" value={formData.userName} name="userName" onChange={handleInputChange}></input>
+            <input type="mail" placeholder="enter user name" id="userName" value={formData.userName} name="userName" onChange={handleInputChange} required></input>
             <br/><br/>
             <label htmlFor="password">Password </label>
-            <input type="password" placeholder="enter password" id="password" value={formData.password} name="password" onChange={handleInputChange}></input>
+            <input type="password" placeholder="enter password" id="password" value={formData.password} name="password" onChange={handleInputChange} required></input>
             <br/><br/>
             <button>Submit</button>
         </form>
